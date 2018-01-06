@@ -1,0 +1,29 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: verdana;
+}
+.pagecontain {
+  display: flex;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  flex-flow: row;
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin: 0em;
+}
+header h1 {
+  flex-grow: 1;
+}
+h5 {
+font-size: 1em;
+padding: 0em 2em;
+text-decoration: underline;
+}
+.cluster {
+  background-image: url("C:\Users\hosinloye\Downloads\Hyperion\resources\images\cluster.jpg");
+}
